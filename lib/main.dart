@@ -19,11 +19,11 @@ class MainApp extends StatelessWidget {
                 'Je suis Mohammed et voici ma première application Flutter',
               ),
               Container(
-                margin:  EdgeInsets.all(20),
-                padding:  EdgeInsets.all(16),
+                margin:  EdgeInsets.all(24),
+                padding:  EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  color: Colors.green,
-                  borderRadius: BorderRadius.circular(22),
+                  color: const Color.fromARGB(255, 0, 150, 150),
+                  borderRadius: BorderRadius.circular(30),
                 ),
                 child:  Text(
                   'Je développe mon application avec Flutter',
@@ -34,7 +34,7 @@ class MainApp extends StatelessWidget {
                 ),
               ),
             Stack(
-  alignment: Alignment.topRight,
+  alignment: Alignment.center,
   children: [
     Container(
       width: 200,
@@ -47,7 +47,7 @@ class MainApp extends StatelessWidget {
       color: Colors.amber,
     ),
      Text(
-      'Mon projet Flutter',
+           "Superposé !", 
       style: TextStyle(
         fontSize: 20,
         fontWeight: FontWeight.bold,
@@ -64,7 +64,7 @@ class MainApp extends StatelessWidget {
     Icon(Icons.person, color: Colors.green, size: 40),
   ],
 ),Column(
-  mainAxisAlignment: MainAxisAlignment.center,
+  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
   crossAxisAlignment: CrossAxisAlignment.center,
   children: [
     Text(
